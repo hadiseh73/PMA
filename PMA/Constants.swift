@@ -870,7 +870,7 @@ public enum Currency: Int {
         case .TVD:
             return "Country"
         case .CHF:
-            return "Liechtenstein"
+            return "Country"
         case .CUP:
             return "Cuba"
         case .KID:
@@ -902,11 +902,11 @@ public enum Currency: Int {
         case .NAD:
             return "Namibia"
         case .CRC:
-            return "Costa Rica"
+            return "Country"
         case .AWG:
             return "Aruba"
         case .PYG:
-            return "Paraguay"
+            return "Country"
         case .MMK:
             return "Myanmar"
         case .SRD:
