@@ -23,6 +23,7 @@
 		558056C42A8370DB00845EED /* CurrenciesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558056C32A8370DB00845EED /* CurrenciesCollectionViewCell.swift */; };
 		558056C62A837C8A00845EED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558056C52A837C8A00845EED /* Constants.swift */; };
 		55F447F72A88C73400C66D5D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 55F447F62A88C73400C66D5D /* Alamofire */; };
+		55F448002A88CDA800C66D5D /* PMAPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 55F447FF2A88CDA800C66D5D /* PMAPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F448002A88CDA800C66D5D /* PMAPackage in Frameworks */,
 				55F447F72A88C73400C66D5D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +167,7 @@
 			name = PMA;
 			packageProductDependencies = (
 				55F447F62A88C73400C66D5D /* Alamofire */,
+				55F447FF2A88CDA800C66D5D /* PMAPackage */,
 			);
 			productName = PMA;
 			productReference = 5580567E2A822D8400845EED /* PMA.app */;
@@ -240,6 +243,7 @@
 			mainGroup = 558056752A822D8400845EED;
 			packageReferences = (
 				55F447F52A88C73400C66D5D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				55F447FE2A88CDA800C66D5D /* XCRemoteSwiftPackageReference "PMAPackage" */,
 			);
 			productRefGroup = 5580567F2A822D8400845EED /* Products */;
 			projectDirPath = "";
@@ -654,6 +658,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		55F447FE2A88CDA800C66D5D /* XCRemoteSwiftPackageReference "PMAPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hadiseh73/PMAPackage.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -661,6 +673,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 55F447F52A88C73400C66D5D /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		55F447FF2A88CDA800C66D5D /* PMAPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55F447FE2A88CDA800C66D5D /* XCRemoteSwiftPackageReference "PMAPackage" */;
+			productName = PMAPackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

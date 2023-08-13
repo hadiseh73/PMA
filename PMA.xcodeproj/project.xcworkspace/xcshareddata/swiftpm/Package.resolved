@@ -8,6 +8,15 @@
         "revision" : "bc268c28fb170f494de9e9927c371b8342979ece",
         "version" : "5.7.1"
       }
+    },
+    {
+      "identity" : "pmapackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hadiseh73/PMAPackage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "efd750149aa370eb0d89d5835246ff3a1af4fe78"
+      }
     }
   ],
   "version" : 2
