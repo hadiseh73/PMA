@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Namibia.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
