@@ -17,12 +17,12 @@
 		558056A32A822D8600845EED /* PMAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558056A22A822D8600845EED /* PMAUITests.swift */; };
 		558056A52A822D8600845EED /* PMAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558056A42A822D8600845EED /* PMAUITestsLaunchTests.swift */; };
 		558056B42A823F9D00845EED /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558056B32A823F9D00845EED /* ApiService.swift */; };
-		558056B72A825B2C00845EED /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 558056B62A825B2C00845EED /* Alamofire */; };
 		558056B92A825BB700845EED /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558056B82A825BB700845EED /* ErrorModel.swift */; };
 		558056BD2A8261DC00845EED /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558056BC2A8261DC00845EED /* CurrencyModel.swift */; };
 		558056C22A83705D00845EED /* CurrenciesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558056C12A83705D00845EED /* CurrenciesCollectionViewCell.xib */; };
 		558056C42A8370DB00845EED /* CurrenciesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558056C32A8370DB00845EED /* CurrenciesCollectionViewCell.swift */; };
 		558056C62A837C8A00845EED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558056C52A837C8A00845EED /* Constants.swift */; };
+		55F447F72A88C73400C66D5D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 55F447F62A88C73400C66D5D /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558056B72A825B2C00845EED /* Alamofire in Frameworks */,
+				55F447F72A88C73400C66D5D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +164,7 @@
 			);
 			name = PMA;
 			packageProductDependencies = (
-				558056B62A825B2C00845EED /* Alamofire */,
+				55F447F62A88C73400C66D5D /* Alamofire */,
 			);
 			productName = PMA;
 			productReference = 5580567E2A822D8400845EED /* PMA.app */;
@@ -239,7 +239,7 @@
 			);
 			mainGroup = 558056752A822D8400845EED;
 			packageReferences = (
-				558056B52A825B2C00845EED /* XCRemoteSwiftPackageReference "Alamofire" */,
+				55F447F52A88C73400C66D5D /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 5580567F2A822D8400845EED /* Products */;
 			projectDirPath = "";
@@ -398,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -452,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -646,7 +646,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		558056B52A825B2C00845EED /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		55F447F52A88C73400C66D5D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -657,9 +657,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		558056B62A825B2C00845EED /* Alamofire */ = {
+		55F447F62A88C73400C66D5D /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 558056B52A825B2C00845EED /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 55F447F52A88C73400C66D5D /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
